@@ -270,4 +270,105 @@ footer a {
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+} 
+
+@media (max-width: 900px) {
+    #hero {
+        padding: 0 20px;
+        width: 300px;
+    }
+
+    #hero img{
+        width: 180px;
+    }
+
+    #hero h1{
+        font-size: 1.5em;
+    }
+
+    #hero p{
+        font-size: 12px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background-color: var(--Dark-Blue-intro);
+    }
+
+    #navbar{
+        padding: 10px;
+        width: 300px;
+        border: 2px solid red;
+    }
+    #navbar img{
+        width: 40px;
+    }
+
+    nav ul a {
+        display: flex;
+        padding: 10px;
+        text-decoration: none;
+        color: var(--White);
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em ;
+    }
+    .features-top, .features-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #features {
+        margin: 30px 20px;
+    }
+    .features-content {
+        text-align: center;
+        margin: 40px 80px;
+    }
+    .features-content h4{
+        font-size: 0.8em;
+    }
+    .features-content p{
+        font-size: 0.8em;
+    }
+    .productivity-left img{
+        width: 180px;
+    }
+    #productivity{
+        flex-direction: column;
+    }
+    #productivity h2{
+        font-size: 0.9em;
+        padding: 30px 0;
+
+    }
+    .productivity-right p{
+        font-size: 0.9em;
+    }
+    .productivity-right a{
+        font-size: 0.9em;
+    }
+    #testimonials{
+        flex-direction: column;
+    }
+    .testimonial-card{
+        margin: 20px;
+        width: 180px;
+    }
+    .testimonial-card p{
+        font-size: 0.8em;
+    }
+    #subscription{
+        width: 300px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+    }
+    #subscription input[type="email"]{
+        width: 200px;
+    }
 }
