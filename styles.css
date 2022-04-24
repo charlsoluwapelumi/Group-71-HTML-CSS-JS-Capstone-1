@@ -84,6 +84,11 @@ nav ul a:hover {
     font-family: 'Raleway', sans-serif;
 }
 
+#hero button:hover {
+    background-image: none;
+    background-color: var(--Light-Red-error);
+}
+
 /* Features-Section */
 
 #features {
