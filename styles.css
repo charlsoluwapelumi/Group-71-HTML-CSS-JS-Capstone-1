@@ -22,8 +22,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--Dark-Blue-main);
     color: var(--White);
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
 
 /* navbar */
