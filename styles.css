@@ -144,6 +144,10 @@ nav ul a:hover {
     width: 150px;
 }
 
+.productivity-right a:hover {
+    background-color: var(--Blue-inside-call-to-action-gradient);
+}
+
 /* Testimonial-Section */
 #testimonials {
     background-image: url(./images/bg-quotes.png);
@@ -223,6 +227,10 @@ nav ul a:hover {
     font-family: 'Raleway', sans-serif;
 }
 
+#subscription button:hover {
+    color: var(--Dark-Blue-intro);
+}
+
 /* Footer-Section */
 footer {
     background-color: var(--Dark-Blue-footer);
@@ -269,6 +277,10 @@ footer a {
     text-decoration: none;
     color: var(--White);
     padding: 0 5px;
+}
+
+footer a:hover {
+    color: var(--Cyan-inside-call-to-action-gradient);
 }
 
 /* attribution */
