@@ -47,6 +47,10 @@ nav ul a {
     font-family: 'Raleway', sans-serif;
 }
 
+nav ul a:hover {
+    color: var(--Cyan-inside-call-to-action-gradient);
+}
+
 /* Hero-Section */
 #hero {
     text-align: center;
