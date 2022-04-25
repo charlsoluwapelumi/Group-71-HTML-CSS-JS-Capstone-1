@@ -25,6 +25,7 @@ body {
     font-size: 14px;   
 }
 
+/* styles for 1440px */
 /* navbar */
 nav {
     display: flex;
@@ -296,7 +297,7 @@ footer a:hover {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width:700px) {
+@media (max-width:500px) {
     
     /* navbar */
     nav {
