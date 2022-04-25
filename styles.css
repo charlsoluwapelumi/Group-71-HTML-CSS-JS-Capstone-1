@@ -86,7 +86,8 @@ nav ul a:hover {
 
 #hero button:hover {
     background-image: none;
-    background-color: var(--Light-Red-error);
+    background-color: var(--Cyan-inside-call-to-action-gradient);
+    cursor: pointer;
 }
 
 /* Features-Section */
@@ -145,7 +146,8 @@ nav ul a:hover {
 }
 
 .productivity-right a:hover {
-    background-color: var(--Blue-inside-call-to-action-gradient);
+    color: var(--White);
+    border-bottom: 1px solid var(--White);
 }
 
 /* Testimonial-Section */
@@ -228,7 +230,9 @@ nav ul a:hover {
 }
 
 #subscription button:hover {
-    color: var(--Dark-Blue-intro);
+    background-image: none;
+    background-color: var(--Cyan-inside-call-to-action-gradient);
+    cursor: pointer;
 }
 
 /* Footer-Section */
